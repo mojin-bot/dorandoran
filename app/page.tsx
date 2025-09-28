@@ -31,13 +31,10 @@ export default function Home() {
         <p>환영합니다 🌿</p>
       </section>
 
-      {/* 2페이지 */}
-      <section className={`${styles.section} ${styles.section2}`}>
-        <h2>객실 소개</h2>
-      </section>
 
-      {/* 3페이지: photo.json 불러와서 출력 */}
-      <section className={`${styles.section} ${styles.section3}`}>
+
+      {/* 2페이지: photo.json 불러와서 출력 */}
+      <section className={`${styles.section} ${styles.section2}`}>
         <h2>갤러리</h2>
         <div className={styles.gallery}>
           {photoList.map((item) => (
@@ -47,6 +44,12 @@ export default function Home() {
             </figure>
           ))}
         </div>
+      </section>
+
+
+            {/* 3페이지 */}
+      <section className={`${styles.section} ${styles.section3}`}>
+        <h2>객실 소개</h2>
       </section>
 
       {/* 4페이지 */}
