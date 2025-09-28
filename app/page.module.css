@@ -1,0 +1,15 @@
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+/* 섹션별 배경 (임시) */
+.section1 { background: #1e3a8a; } /* 파랑 */
+.section2 { background: #047857; } /* 초록 */
+.section3 { background: #b91c1c; } /* 빨강 */
+.section4 { background: #374151; } /* 회색 */
