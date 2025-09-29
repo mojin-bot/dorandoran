@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";  // 추가
 import "./globals.css";
 import { Inter } from "next/font/google";
 

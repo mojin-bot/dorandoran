@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import gsap from "gsap";
+import gasp from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./page.module.css";
 
 // JSON 데이터 import
-import photoList from "@/../public/photo.json";
+import photoList from "@/app/data/photo.json";
 
 gsap.registerPlugin(ScrollTrigger);
 
