@@ -14,23 +14,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko" className={inter.variable}>
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css"
-        />
-      </head>
-      <body>
-        <header className="site-header">
-          <svg className="logo-symbol">
-            <use href="/icons.svg#logo-symbol"></use>
-          </svg>
-          <svg className="logo-text">
-            <use href="/icons.svg#logo-text"></use>
-          </svg>
-        </header>
-        {children}
-      </body>
-    </html>
+        <head>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css" />
+        </head>
+        <body>
+
+            {children}
+
+
+        </body>
+        </html>
   );
 }

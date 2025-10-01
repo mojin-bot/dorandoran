@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import gasp from "gsap";
+import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./page.module.css";
 
-// JSON 데이터 import
-import photoList from "@/../public/photo.json";
+// '@'는 보통 'app' 디렉토리 또는 프로젝트의 소스 루트를 가리킵니다.
+import photoList from "@/data/photo.json";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,6 +25,36 @@ gsap.utils.toArray<HTMLElement>("section").forEach((section) => {
 
 return (
 <main>
+
+
+
+
+
+
+
+            <header className="site-header">
+                    <svg className="logo-symbol">
+                        <use href="/icons.svg#logo-symbol"></use>
+                    </svg>
+                    <svg className="logo-text">
+                        <use href="/icons.svg#logo-text"></use>
+                    </svg>
+            </header>
+
+
+            <footer>
+                    <svg className="logo-text">
+                        <use href="/icons.svg#logo-text"></use>
+                    </svg>
+
+                    <nav></nav>
+
+
+
+            </footer>
+
+
+
 
 
 
