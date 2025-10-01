@@ -32,26 +32,6 @@ return (
 
 
 
-            <header className="site-header">
-                    <svg className="logo-symbol">
-                        <use href="/icons.svg#logo-symbol"></use>
-                    </svg>
-                    <svg className="logo-text">
-                        <use href="/icons.svg#logo-text"></use>
-                    </svg>
-            </header>
-
-
-            <footer>
-                    <svg className="logo-text">
-                        <use href="/icons.svg#logo-text"></use>
-                    </svg>
-
-                    <nav></nav>
-
-
-
-            </footer>
 
 
 
