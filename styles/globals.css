@@ -1,0 +1,15 @@
+/* globals.css 또는 nav.css */
+.nav__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: currentColor;  /* 텍스트 색상과 동기화 */
+}
+.nav__text {
+  margin-left: 4px;
+}
+.nav__link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
