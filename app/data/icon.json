@@ -1,7 +1,26 @@
-// app/data/icons.json
 {
-  "home": "mdi:home",
-  "info": "mdi:information-outline",
-  "photo": "tabler:camera",
-  "reserve": "fa6-solid:calendar-check"
+    "home": "material-symbols:home-outline-rounded",
+    "info": "flowbite:info-circle-outline",
+    "photo": "ic:outline-insert-photo",
+    "reserve": "mingcute:user-edit-line",
+
+    "arrowRight": "meteor-icons:angle-right",
+    "arrowLeft": "meteor-icons:angle-left",
+    "close": "mingcute:close-line",
+    "expand": "fluent:arrow-expand-16-regular",
+
+    "address": "mdi:map-marker",
+    "roomSize": "fluent:slide-size-24-filled",
+    "phone": "famicons:call-sharp",
+    "roomInfo": "material-symbols:nest-multi-room-outline",
+
+    "people": "fa7-solid:people-line",
+    "bbq": "mdi:bbq",
+    "room": "mdi:guest-room",
+    "time": "icon-park-solid:time",
+
+    "toilet": "medical-icon:restrooms",
+    "notice": "akar-icons:info-fill",
+    "price": "mingcute:currency-won-fill",
+    "key": "solar:key-bold"
 }
