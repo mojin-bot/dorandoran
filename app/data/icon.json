@@ -1,0 +1,8 @@
+// app/data/icons.json
+{
+  "home": "mdi:home",
+  "info": "mdi:information-outline",
+  "photo": "tabler:camera",
+  "reserve": "fa6-solid:calendar-check",
+  "instagram": "fa6-brands:instagram"
+}
