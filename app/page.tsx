@@ -7,8 +7,7 @@ import styles from "./page.module.css";
 import photoList from "@/data/photo.json";
 
 // Nav 불러오기
-import { Nav } from "@/components/components";
-import { IconSprite } from "@/components/components";
+import { Nav } from "@/components/Nav";
 
 
 gsap.registerPlugin(ScrollTrigger);
