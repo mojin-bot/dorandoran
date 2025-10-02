@@ -29,7 +29,7 @@ return (
     <main>
     <Nav />
 
-    <section>두 번째 섹션</section>
+    <section>두 번째 섹션 2</section>
     </main>
 );
 }
