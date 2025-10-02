@@ -1,3 +1,4 @@
+// app/page.tsx
 "use client";
 
 import { useEffect } from "react";
@@ -5,31 +6,27 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./page.module.css";
 import photoList from "@/app/data/photo.json";
-
-// Nav 불러오기
 import { Nav } from "@/app/components/Nav";
-
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
-useEffect(() => {
+  useEffect(() => {
     gsap.utils.toArray<HTMLElement>("section").forEach((section) => {
-    ScrollTrigger.create({
+      ScrollTrigger.create({
         trigger: section,
         start: "top top",
         pin: true,
         pinSpacing: false,
         scrub: true,
+      });
     });
-    });
-}, []);
+  }, []);
 
-return (
+  return (
     <main>
-    <Nav />
-
-    <section>두 번째 섹션 2</section>
+      <Nav />
+      <section>두 번째 섹션 2</section>
     </main>
-);
+  );
 }
