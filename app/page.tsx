@@ -4,10 +4,10 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./page.module.css";
-import photoList from "@/data/photo.json";
+import photoList from "@/app/data/photo.json";
 
 // Nav 불러오기
-import { Nav } from "@/components/Nav";
+import { Nav } from "@/app/components/Nav";
 
 
 gsap.registerPlugin(ScrollTrigger);

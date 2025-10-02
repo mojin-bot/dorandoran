@@ -1,6 +1,6 @@
 // app/components/Icon.tsx
 import { Icon as Iconify } from "@iconify/react";
-import icons from "@/data/icons.json";
+import icons from "@/app/data/icons.json";
 
 type Props = { name: keyof typeof icons; className?: string };
 
