@@ -16,7 +16,7 @@ import { Icon } from "@/app/components/Icon";
                 <Icon name="info" className="nav__icon" />
                 <span className="nav__text">안내</span>
                 </a>
-            </li>
+            </li> 
             <li className="nav__item">
                 <a href="#photo" className="nav__link">
                 <Icon name="photo" className="nav__icon" />
