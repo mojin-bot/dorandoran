@@ -1,0 +1,492 @@
+export interface Photo {
+  "photoList-id": number;
+  "photoList-src": string;
+  "photoList-hasAvif": boolean;
+  "photoList-typePortrait": boolean;
+  "photoList-category": string;
+  "photoList-title": string;
+  "photoList-keyword": string[];
+}
+
+export const photoData: Photo[] = [
+    {
+        "photoList-id": 1,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7795_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "현관",
+        "photoList-keyword": ["1층", "신발장", "입구"]
+    },
+    {
+        "photoList-id": 2,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7801_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "복도",
+        "photoList-keyword": ["1층", "복도"]
+    },
+    {
+        "photoList-id": 3,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7805_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "주방",
+        "photoList-keyword": ["1층", "부엌", "식탁", "부엌"]
+    },
+    {
+        "photoList-id": 4,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7823_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "룸A",
+        "photoList-keyword": ["1층", "룸A", "큰방", "옷장"]
+    },
+    {
+        "photoList-id": 5,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7826_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "룸A",
+        "photoList-keyword": ["1층", "룸A", "큰방", "옷장"]
+    },
+    {
+        "photoList-id": 6,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7830_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "룸B",
+        "photoList-keyword": ["1층", "룸B", "작은방"]
+    },
+    {
+        "photoList-id": 7,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7834_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "룸A 창가",
+        "photoList-keyword": ["1층", "룸A", "큰방", "옷장", "창가"]
+    },
+    {
+        "photoList-id": 8,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7837_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "룸A 화장실",
+        "photoList-keyword": ["1층", "화장실", "샤워기", "헤어드라이기"]
+    },
+    {
+        "photoList-id": 9,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7839_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "룸A 계단",
+        "photoList-keyword": ["1층", "룸A", "계단"]
+    },
+    {
+        "photoList-id": 10,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7904_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "1층 주방",
+        "photoList-keyword": ["1층", "룸A", "주방", "부엌", "가스레인지", "정수기"]
+    },
+    {
+        "photoList-id": 11,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7907_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "1층 주방",
+        "photoList-keyword": ["1층", "룸A", "주방", "부엌", "가스레인지", "정수기", "전자레인지", "밥솥"]
+    },
+    {
+        "photoList-id": 12,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7917_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "거실",
+        "photoList-keyword": ["1층", "거실", "쇼파", "TV", "에어컨"]
+    },
+    {
+        "photoList-id": 13,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7923_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "거실",
+        "photoList-keyword": ["1층", "거실", "쇼파", "TV", "에어컨"]
+    },
+    {
+        "photoList-id": 14,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/1f/IMG_7935_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "1F",
+        "photoList-title": "거실",
+        "photoList-keyword": ["1층", "거실", "쇼파", "에어컨", "식탁"]
+    },
+    {
+        "photoList-id": 15,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7842_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "계단",
+        "photoList-keyword": ["2층", "계단"]
+    },
+    {
+        "photoList-id": 16,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7846_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "계단",
+        "photoList-keyword": ["2층", "계단", "조명"]
+    },
+    {
+        "photoList-id": 17,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7853_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "복도",
+        "photoList-keyword": ["2층", "복도", "화장실"]
+    },
+    {
+        "photoList-id": 18,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7855_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "룸C",
+        "photoList-keyword": ["2층", "룸C", "선풍기", "옷장"]
+    },
+    {
+        "photoList-id": 19,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7859_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "룸C",
+        "photoList-keyword": ["2층", "룸C", "선풍기", "옷장"]
+    },
+    {
+        "photoList-id": 20,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7861_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "복도",
+        "photoList-keyword": ["2층", "복도", "테이블", "주방"]
+    },
+    {
+        "photoList-id": 21,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7867_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "복도",
+        "photoList-keyword": ["2층", "복도", "테이블", "2층주방"]
+    },
+    {
+        "photoList-id": 22,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7869_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "복도",
+        "photoList-keyword": ["2층", "주방", "테이블", "2층주방"]
+    },
+    {
+        "photoList-id": 23,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7874_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "화장실",
+        "photoList-keyword": ["2층", "화장실", "샤워기", "2층화장실"]
+    },
+    {
+        "photoList-id": 24,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7878_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "복도",
+        "photoList-keyword": ["2층", "창가", "베란다", "입구"]
+    },
+    {
+        "photoList-id": 25,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7884_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "베란다",
+        "photoList-keyword": ["2층", "창가", "베란다", "입구"]
+    },
+    {
+        "photoList-id": 26,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7890_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "복도",
+        "photoList-keyword": ["2층", "복도", "테이블", "베란다", "2층주방"]
+    },
+    {
+        "photoList-id": 27,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7893_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "주방",
+        "photoList-keyword": ["2층", "복도", "주방", "미니주방", "2층주방"]
+    },
+    {
+        "photoList-id": 28,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/2f/IMG_7900_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "2F",
+        "photoList-title": "계단",
+        "photoList-keyword": ["2층", "복도", "계단"]
+    },
+    {
+        "photoList-id": 29,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7698_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "펜션입구",
+        "photoList-keyword": ["외관", "잔디", "입구", "대표컷"]
+    },
+    {
+        "photoList-id": 30,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7698_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "잔디", "입구"]
+    },
+    {
+        "photoList-id": 31,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7698_-portrait2.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "잔디", "입구", "대표컷모바일"]
+    },
+    {
+        "photoList-id": 32,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7702_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "펜션입구",
+        "photoList-keyword": ["외관", "잔디", "입구", "마당", "대표컷"]
+    },
+    {
+        "photoList-id": 33,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7702_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "잔디", "입구", "마당", "대표컷모바일"]
+    },
+    {
+        "photoList-id": 35,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7707_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "외부",
+        "photoList-keyword": ["외관", "잔디", "입구", "마당", "대표컷"]
+    },
+    {
+        "photoList-id": 36,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7707_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "잔디", "입구", "마당", "대표컷모바일"]
+    },
+    {
+        "photoList-id": 38,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7714_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "전면",
+        "photoList-keyword": ["외관", "잔디", "입구", "마당", "정면", "대표컷"]
+    },
+    {
+        "photoList-id": 39,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7714_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "잔디", "입구", "마당", "정면"]
+    },
+    {
+        "photoList-id": 41,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7719_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "바베큐",
+        "photoList-keyword": ["바베큐", "시설", "건물 후편", "후면", "뒷마당"]
+    },
+    {
+        "photoList-id": 42,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7719_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["바베큐", "시설", "건물 후편", "후면", "뒷마당"]
+    },
+    {
+        "photoList-id": 44,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7722_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "후면 공간",
+        "photoList-keyword": ["건물 후편", "후면", "뒷마당"]
+    },
+    {
+        "photoList-id": 45,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7722_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["건물 후편", "후면", "뒷마당"]
+    },
+    {
+        "photoList-id": 47,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7727_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "후면 공간",
+        "photoList-keyword": ["건물 후편", "후면", "뒷마당"]
+    },
+    {
+        "photoList-id": 48,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7727_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["건물 후편", "후면", "뒷마당"]
+    },
+    {
+        "photoList-id": 50,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7732_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "잔디",
+        "photoList-keyword": ["외관", "잔디", "마당"]
+    },
+    {
+        "photoList-id": 51,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7732_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "잔디", "마당"]
+    },
+    {
+        "photoList-id": 53,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7740_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "입구",
+        "photoList-keyword": ["외관", "마당"]
+    },
+    {
+        "photoList-id": 54,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7740_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "마당"]
+    },
+
+    {
+        "photoList-id": 56,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7742_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "전면",
+        "photoList-keyword": ["외관", "펜션"]
+    },
+    {
+        "photoList-id": 57,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7742_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "펜션", "대표컷모바일"]
+    },
+
+    {
+        "photoList-id": 59,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7752_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "마당",
+        "photoList-keyword": ["외관", "마당"]
+    },
+    {
+        "photoList-id": 60,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7752_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "대표컷",
+        "photoList-keyword": ["외관", "마당"]
+    },
+    {
+        "photoList-id": 62,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7781_.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": false,
+        "photoList-category": "out",
+        "photoList-title": "마당",
+        "photoList-keyword": ["외관", "마당"]
+    },
+    {
+        "photoList-id": 63,
+        "photoList-src": "https://storage.googleapis.com/dorandoran-photo-mj/dorandoran/out/IMG_7781_-portrait.jpg",
+        "photoList-hasAvif": true,
+        "photoList-typePortrait": true,
+        "photoList-category": "out",
+        "photoList-title": "마당",
+        "photoList-keyword": ["외관", "마당"]
+    }
+
+];

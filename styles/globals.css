@@ -1,9 +1,9 @@
-/* globals.css 또는 nav.css */
+/* globals.css 또는 nav.css 
 .nav__icon {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
-  fill: currentColor;  /* 텍스트 색상과 동기화 */
+  fill: currentColor;  
 }
 .nav__text {
   margin-left: 4px;
@@ -13,3 +13,4 @@
   align-items: center;
   gap: 4px;
 }
+*/
