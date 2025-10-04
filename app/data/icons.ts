@@ -17,6 +17,7 @@ const icons = {
   notice: "akar-icons:info-fill",
   money: "mingcute:currency-won-fill",
   key: "solar:key-bold",
+  angledown:"stash:chevron-down"
 };
 
 export default icons;

@@ -201,124 +201,112 @@ export default function Home() {
             </div>
         </section>
 
-    {/* 사진 섹션 */}
-    <section className="container-b">
-        <div className="section-header">
-            <h2 className="title">도란도란</h2>
-            <p className="subtitle">펜션 사진 보기</p>
-        </div>
+        {/* 사진 섹션 */}
+        <section className="container-b">
+            <div className="section-header">
+                <h2 className="title">도란도란</h2>
+                <p className="subtitle">펜션 사진 보기</p>
+            </div>
 
-        <PhotoSection category="out" photos={photos} />
-        <PhotoSection category="1F" photos={photos} />
-        <PhotoSection category="2F" photos={photos} />
-    </section>
+            <PhotoSection category="out" photos={photos} />
+            <PhotoSection category="1F" photos={photos} />
+            <PhotoSection category="2F" photos={photos} />
+        </section>
 
         {/* 추가 섹션 */}
         <section className="container-c"  >
             <div className="card">
-
-
                 <div><LogoSymbol width={100} height={60} className="logoCS" /></div>
                 <div><LogoTextBottom width={100} height={10} className="logoCTB " /></div>
-
-
-
-
-
-
-
-
                 <h2 className="title">도란도란</h2>
                 <p className="subtitle">풀빌라 독채 펜션 (2F)</p>
-                <p className="address">안산시 단원구</p>
-
-                {/* 기본 정보 */}
+                <p className="address"><Icon name="map" /> 안산시 단원구</p>
+                <button className="btn">예약 문의 <Icon name="angledown" /></button>
+                <div style={{ marginBottom: "2.2em" }}></div>
+                 {/* 기본 정보 */}
                 <ul className="info">
-                <li><Icon name="room" /> 방 : 3</li>
-                <li><Icon name="restroom" /> 화장실 : 2</li>
-                <li><Icon name="expand" /> 객실면적 : 35 평</li>
+                    <li><Icon name="room" /> 방 : 3</li>
+                    <li><Icon name="restroom" /> 화장실 : 2</li>
+                    <li><Icon name="expand" /> 객실면적 : 35 평</li>
                 </ul>
-
+                <div style={{ marginBottom: "2.4em" }}></div>
                 {/* 인원 */}
-                <p className="desc">
-                사용인원 : 기본 6 인 ~ 최대 12 인<br />
+                <p className="desc"><Icon name="people" /> 사용인원 : 기본 6 인 ~ 최대 12 인<br />
                 <span className="small">(추가요금 1인당 30,000원)</span>
                 </p>
-
-                <button className="btn">예약 문의</button>
-
-                {/* 특징 */}
+                <div style={{ marginBottom: "3em" }}></div>
+                 {/* 특징 */}
                 <p className="features">
                 독채 풀빌라 / 오션뷰 / 노을 / 석양 / 바베큐 / 객실내 무료 Wi-Fi / 주차
                 </p>
-
-                {/* 요금 테이블 */}
-                <table className="price">
-                <thead>
-                    <tr>
-                    <th>요금</th>
-                    <th>주중 요금</th>
-                    <th>금요일 요금</th>
-                    <th>주말 요금</th>
-                    <th>1인 추가요금</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>비수기</td>
-                    <td>420,000원</td>
-                    <td>470,000원</td>
-                    <td>590,000원</td>
-                    <td>30,000원</td>
-                    </tr>
-                    <tr>
-                    <td>성수기</td>
-                    <td>520,000원</td>
-                    <td>620,000원</td>
-                    <td>740,000원</td>
-                    <td>30,000원</td>
-                    </tr>
-                </tbody>
-                </table>
+                <div style={{ marginBottom: "2.4em" }}></div>
 
                 {/* 객실 안내 */}
                 <div className="room-info">
-                <h3>객실 정보안내</h3>
+                <h3><Icon name="building" /> 객실 정보안내</h3>
                 <p>
-                    1층 : 거실, 주방, 노래방, 화장실 1, 방 2 (온돌)<br />
-                    2층 : 방 1 (온돌), 화장실 1
+                1층 : 거실, 주방, 노래방, 화장실 1, 방 2 (온돌)<br />
+                2층 : 방 1 (온돌), 화장실 1
                 </p>
                 </div>
 
+                <div style={{ marginBottom: "2.4em" }}></div>
 
 
 
-
-                
-                    <h2 className="title"><Icon name="bbq" /> 개별 야외 숯불 바베큐</h2>
-                    <p>
-                    (사전문의/현장결제)<br/>
-                    이용요금 : 숯 세트 (숯 2 + 철망) 40,000원 (현장결제)<br/>
-                    이용시간 : 입실 ~ 21:00
-                    </p>
-
-                    <h3>&lt;바비큐장 이용안내&gt;</h3>
-                    <p>
-                    펜션은 독립 된 개별 바비큐장이며 무료로 자유롭게 이용하시면 됩니다.<br/><br/>
-                    바비큐 서비스(숯+철망)를 신청하지 않았을 경우, 펜션 내에는 그릴만 준비되어 있으며 숯과 철망 등 각종 먹거리는 직접 준비해오셔야 합니다. (불피우기 셀프)<br/><br/>
-                    *화재위험으로 불멍 / 화목 이용은 불가 합니다.<br/>
-                    가위, 집게, 토치(부탄가스 별도)등 집기류는 비치되어 있습니다.
-                    </p>
-
-                    <h2 className="title"><Icon name="reserve" /> 입/퇴실 안내</h2>
-                    <p>
-                    입실시간 : 15시, 퇴실시간 : 11시<br/>
-                    늦은 입실 : 18시 이후의 입실은 사전에 반드시 연락을 주시기 바랍니다.<br/>
-                    퇴실 준비 : 11시 (10시30분까지 준비하여 연락주시면 퇴실안내 도와드립니다.)
-                    </p>
-
-                    <h2 className="title"><Icon name="notice" /> 유의사항</h2>
-                    <ul className="notice">
+                {/* 요금 테이블 */}
+                <table className="price">
+                    <thead>
+                        <tr>
+                            <th><Icon name="money" /> 요금</th>
+                            <th>주중 요금</th>
+                            <th>금요일 요금</th>
+                            <th>주말 요금</th>
+                            <th>1인 추가요금</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>비수기</td>
+                            <td>420,000원</td>
+                            <td>470,000원</td>
+                            <td>590,000원</td>
+                            <td>30,000원</td>
+                        </tr>
+                        <tr>
+                            <td>성수기</td>
+                            <td>520,000원</td>
+                            <td>620,000원</td>
+                            <td>740,000원</td>
+                            <td>30,000원</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style={{ marginBottom: "3.4em" }}></div>
+                <h3 className="noticeTitle">
+                    <Icon name="bbq" /> 개별 야외 숯불 바베큐 (사전문의/현장결제)
+                </h3>
+                <ul className="notice">
+                    <li>이용요금 : 숯 세트 (숯 2 + 철망) 40,000원 (현장결제)</li>
+                    <li>이용시간 : 입실 ~ 21:00</li>
+                    <li>&lt;바비큐장 이용안내&gt;</li>
+                    <li>펜션은 독립 된 개별 바비큐장이며 무료로 자유롭게 이용하시면 됩니다.</li>
+                    <li>바비큐 서비스(숯+철망)를 신청하지 않았을 경우, 
+                    펜션 내에는 그릴만 준비되어 있으며 숯과 철망 등 
+                    각종 먹거리는 직접 준비해오셔야 합니다.</li>
+                    <li>(불피우기 셀프)</li>
+                    <li>화재위험으로 불멍 / 화목 이용은 불가 합니다.</li>
+                    <li>가위, 집게, 토치(부탄가스 별도)등 집기류는 비치되어 있습니다.</li>
+                </ul>
+                <h3 className="noticeTitle"><Icon name="clock" /> 입/퇴실 안내</h3>
+                <ul className="notice">
+                    <li>입실시간 : 15시</li>
+                    <li>퇴실시간 : 11시</li>
+                    <li>늦은 입실 : 18시 이후의 입실은 사전에 반드시 연락을 주시기 바랍니다.</li>
+                    <li>퇴실 준비 : 10시30분까지 준비하여 연락주시면 퇴실안내를 도와드립니다.</li>
+                </ul>
+                <h3 className="noticeTitle"><Icon name="notice" /> 유의사항</h3>
+                <ul className="notice">
                     <li>보호자를 동반하지 않은 미성년자(만20세)는 입실 불가, 환불 없음.</li>
                     <li>모든 인원은 숙박여부와 관계없이 입실 인원에 포함됨.</li>
                     <li>최대 인원 초과 시 입실 거부될 수 있음.</li>
@@ -330,8 +318,8 @@ export default function Home() {
                     <li>시설물 파손·분실 시 사용자 책임.</li>
                     <li>퇴실 시 음식물 및 쓰레기 분리수거, 주방기구 세척 필수.</li>
                     <li>객실 정리 후 펜션지기에게 퇴실 점검 요청.</li>
-                    </ul>
-                </div>
+                </ul>
+            </div>
 
 
 

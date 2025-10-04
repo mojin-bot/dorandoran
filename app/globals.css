@@ -22,7 +22,9 @@ footer div.footer-wrap .foot-h1 svg  {    color: #fff; transition: all 1s ease; 
  footer.active-c div.footer-wrap .foot-h1 svg{ display: none; }
  footer.active-d div.footer-wrap .foot-h1 svg{ display: none; }
 
-
+.header.active-b,
+.header.active-c,
+.header.active-d,
 .header {
     position: fixed;
     top: 0;
@@ -557,7 +559,78 @@ footer div.footer-wrap {
   text-align: center;
   font-weight: 300;
 }
-.container-c .card *{ font-weight: 100; list-style: none;}
+.container-c .card *{ font-weight: 100; list-style: none;  margin: 0 auto; font-size: .75rem; padding: 0;
+line-height: 1.6;
+}
+.container-c .card svg{ font-size: 1.1rem; position: relative; top: .25em;}    
+
+.container-c .card .info{  
+    display: flex;
+        justify-content: center;
+    gap: 2em;
+
+
+
+}
+
+
+.container-c .card .btn{
+     display: block;
+    border-radius: 2em;
+    font-family: pretendard;
+    padding: .20em 0.8em .20em 1.6em;
+    border: 0;
+    background-color: #5f5f5fa3;
+    margin-top: 1em;
+    color: #fff;
+}
+
+.container-c .card .features,
+.container-c .card .features-right,
+.container-c .card .features-right-subtitle{
+    display: block;
+    width: 280px;
+    word-break: keep-all;
+}
+
+.container-c .card .features-right,
+.container-c .card .features-right-subtitle{
+
+    text-align: left;
+}
+
+
+.container-c .card .info li{  width: fit-content; display: block; margin: 0; }
+
+.container-c .card .price thead{ 
+        display: block;
+    border-bottom: 1px solid #fff;
+    
+
+}
+
+.container-c .card .price th svg{ top: 0; margin: 0; margin-right: .2em;}
+.container-c .card .price th,
+.container-c .card .price td{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: .2em .4em;
+
+
+}
+.container-c .card .price thead tr th,
+.container-c .card .price tbody tr td{ width: 20%;   box-sizing: border-box; font-size: 0.9em;
+    min-width: 6.1em;
+
+}
+
+
+.container-c .card .price thead tr th:first-child{ text-align: right;}
+.container-c .card .price tbody tr td:first-child{text-align: right;padding-left: 1.6em; }
+
+
 
 .container-c .card .title {
   display: flex;
@@ -569,12 +642,36 @@ footer div.footer-wrap {
   margin: 0 auto;
   width: fit-content;   padding-top: 3em;
 }
+.container-c .card .subtitle{ margin: 0; padding: 0;}
 
-.container-c .notice {
-  padding-left: 18px;
-  margin: 12px 0;
+.container-c .card h3{ font-weight: 400;}
+
+
+
+.container-c .noticeTitle{width: 280px; text-align: left; margin-bottom: 1em; padding-left: .6em;}
+.container-c ul.notice {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 280px;
+    text-align: left;
+    word-break: keep-all;
+    gap: 1em 0;
+    text-align: left;
+    padding-bottom: 4em;
+
 }
-.container-c .notice li {
-  margin-bottom: 6px;
-  font-size: 13px;
+
+
+.container-c .notice li { text-align: left;
+    display: flex; width: 100%;
+    padding-left: 2em;
+    box-sizing: border-box;
+
+}
+.container-c .notice li::before {
+    content: "•";
+    position: absolute;
+    margin-left: -1.2em;
+    color: #fff;
 }
